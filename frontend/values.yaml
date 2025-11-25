@@ -1,0 +1,6 @@
+deployment:
+  imageVersion: 2
+  replicas: 2
+hpa:
+  cpuUtilization: 15
+    
