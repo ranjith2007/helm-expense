@@ -72,5 +72,5 @@ spec:
    name: backend 
  minReplicas: 1
  maxReplicas: 10
- targetCPUUtilizationPercentage: {{ .values.hpa.targetCPUUtilization  }} # usually 75% in real environment 
+ targetCPUUtilizationPercentage: {{ .Values.hpa.targetCPUUtilization  }} # usually 75% in real environment 
         
